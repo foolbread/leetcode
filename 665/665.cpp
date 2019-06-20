@@ -17,7 +17,7 @@ public:
                 n = nums.size()-1-i;
             else
                 ++des;
-            cout << asc << " " << des << endl;
+
             if (asc > 1 && des > 1)
                 return false;
         }
