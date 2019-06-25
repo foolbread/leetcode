@@ -1,7 +1,7 @@
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
-        if (str1.find_first_of(str2)!= 0)
+        if (str1.find(str2)!= 0)
             return "";
 
         int g = gcd(str1.size(),str2.size());
