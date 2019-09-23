@@ -2,7 +2,6 @@ class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {
         int ret = 0;
-        int c = 0;
 
         sort(houses.begin(),houses.end());
         sort(heaters.begin(),heaters.end());
